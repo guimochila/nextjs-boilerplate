@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint --max-warnings=0",
+    "lint": "eslint src --fix --max-warnings=0",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -35,8 +35,8 @@
     "node": "16.14.2"
   },
   "lint-staged": {
-    "src/**/*.+(ts,tsx)": [
-      "yarn lint --fix"
+    "src/**/*.{ts,tsx}": [
+      "yarn lint"
     ]
   }
 }
