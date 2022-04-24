@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> should render heading 1`] = `
+.emotion-0 {
+  background-color: #06092b;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-1 {
+  width: 25rem;
+  margin-bottom: 2rem;
+}
+
+.emotion-2 {
+  font-size: 2.5rem;
+}
+
+.emotion-3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.emotion-4 {
+  margin-top: 3rem;
+  width: min(30rem, 100%);
+}
+
+<main
+  class="emotion-0"
+>
+  <img
+    alt="Image of an atom and Advanced React written on its right side"
+    class="emotion-1"
+    src="/img/logo.svg"
+  />
+  <h1
+    class="emotion-2"
+  >
+    React Pro
+  </h1>
+  <h2
+    class="emotion-3"
+  >
+    Typescript, ReactJS, NextJS and Emotion
+  </h2>
+  <img
+    alt="Developer with a screen in front of him"
+    class="emotion-4"
+    src="/img/hero-illustration.svg"
+  />
+</main>
+`;

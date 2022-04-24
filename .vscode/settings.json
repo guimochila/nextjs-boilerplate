@@ -2,5 +2,8 @@
   "editor.formatOnPaste": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
+  },
+  "files.associations": {
+    "*.svg": "html"
   }
 }
