@@ -10,8 +10,9 @@
     "prepare": "husky install",
     "test": "jest",
     "test:watch": "yarn test --watch",
+    "test:ci": "jest --runInBand",
     "storybook": "start-storybook -s ./public -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook -s ./public"
   },
   "dependencies": {
     "@emotion/react": "^11.9.0",
